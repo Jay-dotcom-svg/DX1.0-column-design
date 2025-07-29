@@ -83,6 +83,7 @@ span{
  }
  .secondsection-leftdiv h4{
     margin-bottom: 20px;
+    text-align: center;
  }
  .secondsection-leftdiv p{
     margin-bottom: 25px;
@@ -95,3 +96,62 @@ span{
 
  }
 /* ===== Second section ends here===== */
+
+/* ===== Third section starts here===== */
+.thirdsection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.thirdsection-leftdiv,
+.thirdsection-rightdiv {
+    height: 460px;
+    width: 340px;
+}
+.thirdsection-leftdiv{
+    background: url("images/image3.jpg");
+    background-size: cover;
+}
+.thirdsection-rightdiv{
+    background: var(--main-color);
+    padding: 40px 25px;
+}
+.thirdsection-rightdiv p{
+    margin-bottom: 25px;
+}
+/* ===== Third section ends here===== */
+
+/* ===== Footer section starts here===== */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: var(--main-color);
+    padding: 10px 0;
+    color: var(--white-color);
+}
+.footericons-container{
+    font-size: 25px;
+}
+.footer-icon{
+    margin-left: 0 5px;
+}
+
+a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+/* ===== Footer section ends here===== */
+
+/* ===== Safety measure section starts here===== */
+.firstsection, .secondsection, .thirdsection, footer{
+      max-width: 1500px;
+    margin: 0 auto;
+}
+/* ===== Safety measure ends here===== */
+
+
+
